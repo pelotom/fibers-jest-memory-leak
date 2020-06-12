@@ -11,3 +11,7 @@ npm test --detectLeaks
 ```
 
 for a yes/no indication about the presence of leaks. Commenting out the first line of `includes.js`, which simply requires `fibers`, eliminates the leak.
+
+### Update
+
+Per [this comment](https://github.com/laverdet/node-fibers/issues/441#issuecomment-643467308), adding `-r fibers` as a node option to preload Fibers solves the problem! 🎉

@@ -2,7 +2,7 @@
   "name": "fibers-jest-memory-leak",
   "version": "1.0.0",
   "scripts": {
-    "test": "node --expose-gc ./node_modules/.bin/jest --runInBand --watchAll --logHeapUsage"
+    "test": "node -r fibers --expose-gc ./node_modules/.bin/jest --runInBand --watchAll --logHeapUsage"
   },
   "author": "",
   "license": "ISC",
