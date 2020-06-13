@@ -14,3 +14,5 @@ This illustrates a memory leak that occurs when using `jest` with `sqlite3`. Aft
 
       at onResult (node_modules/@jest/core/build/TestScheduler.js:188:18)
 ```
+
+Commenting out the `require('sqlite3');` line from `leak.test.js` causes the test to pass.
