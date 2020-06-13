@@ -1,3 +1,0 @@
-require('./includes');
-
-test('leak', () => {});
