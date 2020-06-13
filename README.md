@@ -1,4 +1,4 @@
-This illustrates a memory leak that occurs when using `jest` with `sqlite3`. After downloading, run `npm install && npm test` to see the error:
+This illustrates a memory leak that occurs when using `jest` with `sqlite3`. After cloning, run `npm install && npm test` to see the error:
 
 ```
  FAIL  ./leak.test.js
